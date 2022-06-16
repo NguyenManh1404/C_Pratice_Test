@@ -51,7 +51,6 @@ void bookInput(struct book *ptrBook){
 		printf("\n");
 		printf("\n");
 	}
-	
 }
 
 void bookOut(struct book *ptrBook){
@@ -63,11 +62,10 @@ void bookOut(struct book *ptrBook){
 		printf("Code of book %d is  %d ",i+1,(ptrBook+i)->code);
 		printf("\nPrice of book %d is  %lf ",i+1,(ptrBook+i)->price);
 	}
-	
 }
 
 int main(){
-	
+
 	struct book arrayStruct[3];
 	struct book *ptrBook = arrayStruct;
 	

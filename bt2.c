@@ -5,3 +5,5 @@
  char *p = s;
  printf("%c\t%c", *(p + 3), s[1]);
 }
+
+// ket qua: p       e
